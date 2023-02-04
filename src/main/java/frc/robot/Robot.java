@@ -21,6 +21,7 @@ import edu.wpi.first.wpilibj2.command.CommandScheduler;
 public class Robot extends TimedRobot {
   private Command autonomousCommand;
   private RobotContainer robotContainer;
+  //Life is beautiful when you don't have eyes...
 
   
   private final Talon m_leftfrontMotor = new Talon(0);
@@ -111,4 +112,5 @@ public class Robot extends TimedRobot {
   /** This function is called periodically during test mode. */
   @Override
   public void testPeriodic() {}
+  //Life now sucks
 }
